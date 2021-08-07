@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Web Application</title>
+    <meta charset="utf-8">
+	<meta name="author" content="AnikeSadia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="static/AppStyle.css">
+</head>
+<body>
+    <div class="model_desc">
+    <h2> Model Description </h2><br>
+    <p>This web application is a chance of getting into university prediction system. The aim of this project is to predict a student's
+        change of getting into university based on its previous exam scores. After inputting the corresponding data, a predicted chance will display.<br><br>
+    The exam score needed are :<br> 
+    The GRE Score <br> 
+    TOEFL Score<br> 
+    University Rating<br> 
+    SOP - Statement of Purpose<br>
+    LOR - Letter of Recommendation<br>
+    CGPA - Cumulative Grade Point Average<br>
+    Research-- Made a research? (Yes=1/No=0)
+    </p></div>
+<div class="data_part">
+    <h1>ADMISSION CHANCE PREDICTION</h1>
+    <form action="{{url_for('predict')}}" method="post">
+            <input class="Input" type="text" name="gre" placeholder="Your GRE score" required/>
+            <input class="Input" type="text" name="toefl" placeholder="Your TOEFL score" required/>
+        <select name="comp_select" class="Input">
+              {% for o in data %}
+              <option value="{{ o.UR }}">{{ o.UR }}</option>
+              {% endfor %}
+            </select><br><br>
+        <input class="Input" type="text" name="sop" placeholder="Enter your SOP score" required/>
+        <input class="Input" type="text" name="lor" placeholder="Enter your LOR score" required/>
+        <input class="Input" type="text" name="cgpa" placeholder="Enter your CGPA" required/>
+        <select name="comp_select1" class="Input">
+              {% for o in data1 %}
+              <option value="{{ o.ReS }}">{{ o.ReS }}</option>
+              {% endfor %}
+            </select><br><br>
+
+        <button type="submit" class="pred-btn"> Predict </button>
+
+</form>
+    <h3> {{prediction_text}} </h3>
+
+</div>
+
+
+
+</body>
+</html>

@@ -27,7 +27,7 @@ LOR stands for Letter of Recommendation which is also a necessary document as a 
 
 * [PICKLE](https://en.wikipedia.org/wiki/Pickle)
 
-* [RANDOM FOREST REGRESSION](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)<br><br>
+* [LINEAR REGRESSION](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)<br><br>
 
 
 # ⌛ Project Demo
@@ -37,7 +37,7 @@ LOR stands for Letter of Recommendation which is also a necessary document as a 
 <br>
 <br>
 
-![capture](https://github.com/memudualimatou/INSURANCE-CHARGES-WEB-APPLICATION/blob/main/IMAGES/ezgif.com-gif-maker%20(2).gif)<br>
+![capture](https://github.com/memudualimatou/ADMISSION-WEB-APPLICATION-USING-FLASK-PYTHON/blob/master/Capture27.PNG)<br>
 <br><br>
 
 # 🔑 Prerequisites

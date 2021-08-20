@@ -40,28 +40,4 @@ LOR stands for Letter of Recommendation which is also a necessary document as a 
 ![capture](https://github.com/memudualimatou/ADMISSION-WEB-APPLICATION-USING-FLASK-PYTHON/blob/master/Capture27.PNG)<br>
 <br><br>
 
-# 🔑 Prerequisites
-All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/ADMISSION-WEB-APPLICATION-USING-FLASK-PYTHON/blob/master/requirements.txt): The css file located inside the static foler.
-<br><br>
-
-## 🚀 INSTALLATION
-
-Clone the repo\
-```$ https://git.heroku.com/insurance-charges-web-app.git```
-
-
-Now, run the following command in your Terminal/Command Prompt to install the libraries required
-
-```$ pip3 install -r requirements.txt```
-
-
-# 👏 And it's done!
-Feel free to mail me for any doubts/query ✉️ anikesadia01@gmail.com
-<br><br>
-
-
-
-# ❤️ Owner
-Made with ❤️  by MEMUDU Alimatou Sadia Anike.
-
 
